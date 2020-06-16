@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4fe94c5b-70c9-4c29-81ea-c57d77318eeb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1dJchTN2uoiVSzctBYxIk1RoJ1p" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../OOP/prj/app_learn_english-master" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager">
+    <configuration name="FileManagerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Application.FileManagerApplication" />
+      <module name="FileManagerDemo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FileManagerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="693" y="289" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592300056036">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="693" y="289" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592300056036" />
+    <state x="743" y="298" width="424" height="491" key="FileChooserDialogImpl" timestamp="1592315123386">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="743" y="298" width="424" height="491" key="FileChooserDialogImpl/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592315123386" />
+    <state width="1874" height="283" key="GridCell.Tab.0.bottom" timestamp="1592323327986">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="283" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592323327986" />
+    <state width="1874" height="283" key="GridCell.Tab.0.center" timestamp="1592323327986">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="283" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592323327986" />
+    <state width="1874" height="283" key="GridCell.Tab.0.left" timestamp="1592323327985">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="283" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592323327985" />
+    <state width="1874" height="283" key="GridCell.Tab.0.right" timestamp="1592323327986">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="283" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592323327986" />
+    <state x="449" y="175" width="1022" height="737" key="SettingsEditor" timestamp="1592314353768">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="449" y="175" width="1022" height="737" key="SettingsEditor/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592314353768" />
+    <state x="702" y="419" width="616" height="284" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1592314107597">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="702" y="419" width="616" height="284" key="org.intellij.images.editor.actions.BackgroundImageDialog/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592314107597" />
+  </component>
+</project>
