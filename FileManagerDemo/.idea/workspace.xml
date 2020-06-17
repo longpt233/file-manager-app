@@ -1,7 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fe94c5b-70c9-4c29-81ea-c57d77318eeb" name="Default Changelist" comment="" />
+    <list default="true" id="4fe94c5b-70c9-4c29-81ea-c57d77318eeb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Image/Folder_close.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileManagerDemo/Application/FileManagerApplication$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FileManagerDemo/Application/FileManagerApplication$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileManagerDemo/Application/FileManagerApplication$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FileManagerDemo/Application/FileManagerApplication$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileManagerDemo/Application/FileManagerApplication$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FileManagerDemo/Application/FileManagerApplication$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileManagerDemo/Application/FileManagerApplication$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FileManagerDemo/Application/FileManagerApplication$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileManagerDemo/Application/FileManagerApplication$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileManagerDemo/Application/FileManagerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FileManagerDemo/Application/FileManagerApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileManagerDemo/Application/Tree$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FileManagerDemo/Application/Tree$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileManagerDemo/Application/Tree$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FileManagerDemo/Application/Tree$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileManagerDemo/Application/Tree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FileManagerDemo/Application/Tree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application/FileManagerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/FileManagerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application/FileOpenDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/FileOpenDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/Tree.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,16 +47,23 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1dJchTN2uoiVSzctBYxIk1RoJ1p" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../OOP/prj/app_learn_english-master" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="FileManagerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -39,6 +79,20 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="693" y="289" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592300056036">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -48,26 +102,34 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="743" y="298" width="424" height="491" key="FileChooserDialogImpl/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592315123386" />
-    <state width="1874" height="283" key="GridCell.Tab.0.bottom" timestamp="1592323327986">
+    <state width="1874" height="283" key="GridCell.Tab.0.bottom" timestamp="1592354010334">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="283" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592323327986" />
-    <state width="1874" height="283" key="GridCell.Tab.0.center" timestamp="1592323327986">
+    <state width="1874" height="283" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592354010334" />
+    <state width="1874" height="283" key="GridCell.Tab.0.center" timestamp="1592354010333">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="283" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592323327986" />
-    <state width="1874" height="283" key="GridCell.Tab.0.left" timestamp="1592323327985">
+    <state width="1874" height="283" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592354010333" />
+    <state width="1874" height="283" key="GridCell.Tab.0.left" timestamp="1592354010333">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="283" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592323327985" />
-    <state width="1874" height="283" key="GridCell.Tab.0.right" timestamp="1592323327986">
+    <state width="1874" height="283" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592354010333" />
+    <state width="1874" height="283" key="GridCell.Tab.0.right" timestamp="1592354010334">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="283" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592323327986" />
-    <state x="449" y="175" width="1022" height="737" key="SettingsEditor" timestamp="1592314353768">
+    <state width="1874" height="283" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592354010334" />
+    <state x="449" y="175" width="1022" height="737" key="SettingsEditor" timestamp="1592324600582">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="449" y="175" width="1022" height="737" key="SettingsEditor/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592314353768" />
+    <state x="449" y="175" width="1022" height="737" key="SettingsEditor/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592324600582" />
+    <state x="111" y="103" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1592324602513">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="111" y="103" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592324602513" />
+    <state x="731" y="455" width="448" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592354766266">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="731" y="455" width="448" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592354766266" />
     <state x="702" y="419" width="616" height="284" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1592314107597">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

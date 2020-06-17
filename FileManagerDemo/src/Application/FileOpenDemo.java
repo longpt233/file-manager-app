@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
-public class FileOpenDemo extends JTextArea{
+public class FileOpenDemo extends JTextArea{       // mot panel de hien thi file text
 
     /**
      *

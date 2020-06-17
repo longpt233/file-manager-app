@@ -74,24 +74,16 @@ public class FileManagerApplication extends JFrame {
     public void prepareAndShowGUI() {
 
 
-        tree=new Tree(fileManager.getRoot());
+        tree=new Tree(fileManager );
         // SET TREE VIEW BANG CAI JTREE TAO O TREN
         JScrollPane treeView = new JScrollPane(tree.getjTree());
         treeView.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
         treeView.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
         treeView.setPreferredSize(new Dimension(300, 600));
 
-        // jTree.setCellRenderer(ds);
 
-        //DefaultTreeCellRenderer renderer = (DefaultTreeCellRenderer) jTree.getCellRenderer();
-        Icon openIcon;
-        Icon leafIcon;
-        try {
-            openIcon = new ImageIcon("src/Image/Folder_Icon.png");
-            leafIcon = new ImageIcon("src/Image/File_Icon.png");
-        } catch (Exception e) {
-            System.out.println("Image can't be loaded");
-        }
+
+
 
         JMenuBar jMenuBar = new JMenuBar();
         jMenuBar.setBackground(Color.WHITE);
@@ -121,40 +113,6 @@ public class FileManagerApplication extends JFrame {
             items[i].setPreferredSize(new Dimension(150, 25));
             file.add(items[i]);
         }
-
-        tree.addMouseListener(new MouseAdapter() {
-            @Override
-            public void mousePressed(MouseEvent e) {
-                TreePath[] paths = tree.getSelectionPaths();
-                if(paths == null) return;
-                for (TreePath path : paths) {
-                    Node node = (Node) path.getLastPathComponent();
-                    if (!node.isDirectory()){
-                        FileOpenDemo.showFileViewer(fileManager.program, new File(node.getPath()), "File Viewer Demo !!!");
-                        return;
-                    } 
-                    fileManager.scan(node);
-                    node.setPre(fileManager.getCurNode());
-                    fileManager.setCurNode(node);
-                    addressBar.setAddress(fileManager.getCurNode().getPath());
-                    // System.out.println(node.getName());
-                }
-                displayPanel.update(fileManager.getCurNode());
-            }
-        });
-
-        /*
-         * jTree.addTreeSelectionListener(new TreeSelectionListener() {
-         * 
-         * @Override public void valueChanged(TreeSelectionEvent e) { TreePath[] paths =
-         * jTree.getSelectionPaths(); for (TreePath path : paths) { Node node = (Node)
-         * path.getLastPathComponent(); fileManager.scan(node); //Node pre = node;
-         * node.setPre(fileManager.getCurNode()); fileManager.setCurNode(node);
-         * //System.out.println(node.getName()); //fileManager.openAFolderNode(node); }
-         * displayPanel.update(fileManager.getCurNode()); // jTree.updateUI(); }
-         * 
-         * });
-         */
 
         displayPanel = new FolderDisplayPanel(this);
         displayPanel.setPreferredSize(new Dimension(2 * width / 3, 0));

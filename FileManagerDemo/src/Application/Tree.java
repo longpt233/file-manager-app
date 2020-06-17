@@ -1,16 +1,23 @@
 package Application;
 
+import FileManager.FileManager;
 import Node.Node;
 
 import javax.swing.*;
 import javax.swing.border.Border;
 import javax.swing.tree.DefaultTreeCellRenderer;
+import javax.swing.tree.TreePath;
 import java.awt.*;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.io.File;
 
 public class Tree extends JTree {
     private  JTree jTree;
-    public Tree(Node root) {
-        DefaultTreeCellRenderer ds;
+    private FileManager  manager;   // chua du lieu quan li
+    DefaultTreeCellRenderer ds;
+    public Tree(FileManager  manager) {
+        this.manager=manager;
         ds = new DefaultTreeCellRenderer() {     // set lai cho tung cell trong jtree
             private int height, width;
             private static final long serialVersionUID = 1L;
@@ -35,19 +42,62 @@ public class Tree extends JTree {
                 return d;
             }
         };
-        jTree = new JTree(root) {
-            private static final long serialVersionUID = 1L;
 
-            @Override
-            public void updateUI() {
-                super.updateUI();
-                setCellRenderer(ds);
-                setRowHeight(0);
+
+        jTree = new JTree(manager.getRoot());
+
+
+        DefaultTreeCellRenderer renderer = (DefaultTreeCellRenderer) jTree.getCellRenderer();
+        Icon openIcon;
+        Icon leafIcon;
+        Icon closeIcon;
+        try {
+            openIcon = new ImageIcon("src/Image/Folder_Icon.png");
+            leafIcon = new ImageIcon("src/Image/File_Icon.png");
+            closeIcon=new ImageIcon("src/Image/Folder_close.png");
+            renderer.setClosedIcon(closeIcon);
+            renderer.setOpenIcon(openIcon);
+            renderer.setLeafIcon(leafIcon);
+        } catch (Exception e) {
+            System.out.println("Image can't be loaded");
+        }
+
+        jTree.addMouseListener(new MouseAdapter() {
+            public void mousePressed(MouseEvent e) {
+                TreePath[] paths = jTree.getSelectionPaths();  // luu lai tat ca duong dan
+                System.out.println(paths.toString());
+                if(paths == null) return;
+                for (TreePath path : paths) {
+                    Node node = (Node) path.getLastPathComponent();
+                    if (!node.isDirectory()){
+                        FileOpenDemo.showFileViewer(manager.program, new File(node.getPath()), "File Viewer Demo !!!");
+                        return;
+                    }
+                    manager.scan(node);
+                    node.setPre(manager.getCurNode());
+                    manager.setCurNode(node);
+                    //  addressBar.setAddress(manager.getCurNode().getPath());
+                    // System.out.println(node.getName());
+                }
+                // displayPanel.update(manager.getCurNode());
             }
-        };
+        });
     }
 
+
+
+        @Override
+        public void updateUI() {
+            super.updateUI();
+
+            setCellRenderer(ds);
+            setRowHeight(0);
+        }
     public JTree getjTree() {
         return jTree;
     }
 }
+
+
+
+
